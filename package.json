@@ -1,0 +1,17 @@
+{
+  "name": "appcenter-incrementer",
+  "version": "0.0.1",
+  "description": "small script to increment appcenter build ID",
+  "main": "spawner.js",
+  "repository": "https://e1ferapontov@github.com/e1ferapontov/appcenter-incrementer.git",
+  "author": "Evgeniy Ferapontov <e.ferapontov@outlook.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node ./spawner.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "moment": "^2.24.0"
+  }
+}
